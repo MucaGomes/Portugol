@@ -16,7 +16,7 @@ programa
 		inteiro E
 		inteiro M
 
-		escreva( "\n" ," Digite o valor do peso: ")
+		escreva( "\n" ," Digite o peso dos tomates: ")
 		leia(P)
 
 		E = P - 50
@@ -27,6 +27,7 @@ programa
 		  	
 		  	} senao 	{
 		  		M = 0
+		  		E= 0
 			     	}
 		escreva(" O valor da multa á pagar é: " , M ,"\n", "A quantidade de excesso é: ", E )
 	} 
@@ -36,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 536; 
+ * @POSICAO-CURSOR = 660; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
