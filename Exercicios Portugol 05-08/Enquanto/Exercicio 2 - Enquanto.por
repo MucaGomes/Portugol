@@ -3,26 +3,30 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num , resultado = 0 , c =0 
+		inteiro num 
 		
-		escreva("Digite um numero para multiplicar: ")
+		escreva("Digite um numero para multiplicar: ") 
 		leia(num)
 
-		enquanto (resultado < 100){
-			c ++
-			resultado = num * (c * 3)
-			escreva(" | ", resultado, " | ")
+		escreva( " | ", num)
+
+		enquanto (num < 100){
+			
+			num = num * 3
+			escreva(" | ", num , " | ")
+
+			}
 		}
-	}
-}
+
+	}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 240; 
+ * @POSICAO-CURSOR = 228; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 6, 10, 3}-{resultado, 6, 16, 9}-{c, 6, 32, 1};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
