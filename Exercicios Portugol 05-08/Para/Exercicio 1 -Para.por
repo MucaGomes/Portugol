@@ -23,7 +23,7 @@ programa
 					
 					} senao se (sal > maiorSal) {
 						maiorSal = sal
-					}
+					}1
 								
 			somaF += qT
 			somaS += sal
@@ -34,8 +34,8 @@ programa
 			porcentual100 = sal100 / 5 * 100
 
 			limpa()
-			escreva("O maior salário digitado foi: ", maiorSal)
-			escreva ("\n A média de salário da população é: R$", mediaS)
+			escreva("O maior salário digitado foi: R$ ", maiorSal)
+			escreva ("\n A média de salário da população é: R$ ", mediaS)
 			escreva ("\n A média de quantidade de filhos da população é: ", mediaF)
 			escreva ("\n O percentual de salário da população que ganha até R$100 é: ", porcentual100)
 			
@@ -46,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 464; 
+ * @POSICAO-CURSOR = 718; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
