@@ -23,7 +23,7 @@ programa
 		enquanto (num < 100){
 			
 			
-			//fazemos um calculo rapido da variavel num ser multiplicada por 3 e colocamos ela na tela 
+			//fazemos um calculo rapido da variavel num(recebida) ser multiplicada por 3 e colocamos ela na tela 
 			num = num * 3
 			escreva(" | ", num , " | ")
 
