@@ -23,7 +23,7 @@ programa
 					
 					} senao se (sal > maiorSal) {
 						maiorSal = sal
-					}1
+					}
 								
 			somaF += qT
 			somaS += sal
