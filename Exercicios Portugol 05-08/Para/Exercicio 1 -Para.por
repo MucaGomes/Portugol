@@ -4,31 +4,41 @@ programa
 	funcao inicio()
 	
 	{
+	
+		
 		inteiro somaF = 0 , somaS = 0, sal, qT, mediaF, mediaS , maiorSal = 0
 		real porcentual100 = 0.10 , sal100 = 0.0
 		
 		para (inteiro i = 0; i <5 ; i++ ){
 			
+			//aqui pedimos para o usuario digitar as infos...
 			escreva ("Digite a o salario: ")
 			leia(sal)
 			escreva("Digite a Quantidade de filhos: ")
 			leia(qT)
-
+			
+			
+			//criamos uma condição: caso o salario digitado for menor ou igual a 100
+			//entramos nesse laço SE , com um contador para a variavel sa100
+			
 			se(sal <= 100) {
 			     	sal100 = sal100 + 1 
 				}
-
+				
+				
+				//aqui verificamos o maior salario digitado , comparando o valor digitado com o maior valor
 				se(i == 1) {
 					maiorSal = sal
 					
 					} senao se (sal > maiorSal) {
 						maiorSal = sal
 					}
-								
+			//aqui somamos a quantidade de filhos com a variavel somaF , e a quantidade de salarios com a variavel somaS 					
 			somaF += qT
 			somaS += sal
 		}
 			
+			//aqui calculamos a media dos valores digitados e a porcentual de pessoas com salario ate 100 reais
 			mediaF = somaF / 5
 			mediaS = somaS / 5
 			porcentual100 = sal100 / 5 * 100
