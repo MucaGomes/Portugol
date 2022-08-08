@@ -17,14 +17,14 @@ programa
 
 		
 		
-		faca {
+		faca{
 			
 			// entramos no loop faça , com uma condição SE : se o numero for maior que 0 e menor ou igual a 9
 			// o contador começa a somar + 1
 			// logo após famos uma subtração do numero digitado - c (numero digitado - contador)
 			// perceba que o contador começa negativo e soma de 1 em 1 
 			// escrevendo a ordem decrecente entao temos : Exemplo = num = 5 , será mostrado , 5 4 3 2 1 
-			// pegamos a variavel ordem e somamos cada vez que ela for passada na funcao faça...
+			// pegamos a variavel ordem e somamos cada vez que ela for passada na funcao faça
 			
 			se(num <=9 e num >0) {
 
