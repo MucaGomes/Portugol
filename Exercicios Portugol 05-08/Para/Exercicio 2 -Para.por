@@ -1,10 +1,20 @@
+/* 2- Desenvolver um sistema que efetue a soma de todos os números ímpares que são
+múltiplos de três e que se encontram no conjunto dos números de 1 até 500. */
+
+
 programa
-{
+{	
 	funcao inicio()
 	{
 		inteiro soma = 0
 
+		
+		// ao entrar na funcao PARA , é contado os numeros de 1 ate o numero 500
 		para (inteiro i = 0  ; i <= 500 ; i+=3){
+		
+		//criamos uma condição para a contagem , se os numero entre 1 e 500 forem impares e multiplos de 3
+		//assim todos os numero que dividido por 2 terem o resto 1 , entra para a soma.
+		
 			se (i % 2 == 1 ) {
 				soma += i
 				}
