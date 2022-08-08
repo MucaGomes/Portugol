@@ -31,14 +31,14 @@ programa
 			escreva ("\n A média de quantidade de filhos da população é: ", mediaF)
 			escreva ("\n O percentual de salário da população que ganha até R$100 é: ", porcentual100)
 			
-		}
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 725; 
+ * @POSICAO-CURSOR = 727; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
