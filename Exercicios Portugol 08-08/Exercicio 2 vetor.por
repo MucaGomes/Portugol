@@ -39,7 +39,7 @@ programa
 				} 
 			}
 
-		// aqui fazemos a média aritmética dos valores somados
+		// aqui fazemos a média aritmética
 		media = soma / 10
 
 		escreva ("\n A media dos numeros sorteados foi: ", media)
@@ -52,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1235; 
+ * @POSICAO-CURSOR = 1079; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {c, 12, 40, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
